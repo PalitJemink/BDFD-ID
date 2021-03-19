@@ -1,0 +1,12 @@
+$title [Work]
+$color [#ffffff]
+$author [$username]
+$authorIcon [$authorAvatar]
+$description [You worked and earned $$ random [10; 1000]] $setUserVar [Money; $sum [$getUserVar [Money]; $random [10; 1000]]]
+$nomention
+$cooldown [10s; you have to wait 10 seconds to work again!]
+
+
+
+Money
+Value : 0
